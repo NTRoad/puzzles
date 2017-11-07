@@ -1,0 +1,127 @@
+/* 重置样式 */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    border: none;
+    vertical-align: top;
+}
+
+li {
+    list-style: none;
+}
+
+.clear {
+    zoom: 1;
+}
+
+.clear:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+
+/* 布局样式 */
+
+body {
+    background: #155263;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    background: #f7f7f8;
+}
+
+.game-head {
+    height: 50px;
+    background: rgb(87, 198, 231);
+    border-radius: 10px 10px 0 0;
+    line-height: 50px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+select#choose,
+#start {
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    border: none;
+    background: #efe;
+    cursor: pointer;
+}
+
+.game-con {
+    height: 340px;
+    padding: 20px 0;
+}
+
+.game-con ul {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.game-con ul li {
+    float: left;
+    padding: 1px;
+}
+
+.game-con ul li img {
+    width: 100%;
+}
+
+.game-foot {
+    width: 300px;
+    margin: 10px auto;
+}
+
+.show-text {
+    width: 40%;
+    line-height: 40px;
+    font-size: 26px;
+}
+
+.show-img {
+    width: 35%;
+    margin-right: 50px;
+}
+
+.show-img img {
+    width: 100%;
+}
+
+
+/* 媒体查询 */
+
+@media(min-width:540px) {
+    .content {
+        width: 540px;
+        height: 90%;
+        margin: 0 auto;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+}

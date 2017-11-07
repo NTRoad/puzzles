@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <script src="script/script.js"></script>
+    <title>智能拼图</title>
+</head>
+
+<body>
+    <div class="content">
+        <div class="game-head">
+            <label for="choose">难度</label>
+            <select name="" id="choose">
+                <option value="简单">简单</option>
+                <option value="中等">中等</option>
+                <option value="困难">困难</option>
+            </select>
+            <input type="button" id="start" value="开始新游戏">
+        </div>
+        <div class="game-con">
+            <ul id="game-ul">
+
+            </ul>
+        </div>
+        <div class="game-foot clear">
+            <div class="show-text fl">
+                <p>用时：<span id="time">0</span></p>
+                <p>步数：<span id="step">0</span></p>
+            </div>
+            <div class="show-img fr">
+                <img src="img/images1/main.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
