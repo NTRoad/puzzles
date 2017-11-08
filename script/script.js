@@ -95,6 +95,7 @@ function ramArr() {
 }
 //开始游戏
 function startGame() {
+    clearInterval(timer);
     iTime = 0;
     iStep = 0;
     document.getElementById("time").innerText = iTime;
